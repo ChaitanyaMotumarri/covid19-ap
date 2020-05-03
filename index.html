@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AP State</title>
+</head>
+<body>
+
+    <button class="btn btn-warning" id="btn">Covid Cases in AP</button>
+
+    <div class="container">
+        <div class="row my-2">
+            <div class="col">
+                <h3>No.of Districts : <span id="count" class="text-primary"></span></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body bg-dark">
+                       <div class="table-responsive-lg">
+                        <table class="table table-light text-white  table-hover table-striped text-center">
+                            <thead class="bg-danger text-uppercase">
+                                <tr>
+                                    <th>District</th>
+                                    <th>Confirmed</th>
+                                    <th>Active</th>
+                                    <th>Discharged</th>
+                                    <th>Death</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody" class="text-dark">
+
+                            </tbody>
+                        </table>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h4>Designed with <i class="fas fa-heart" id="love"></i> by <i class="fa fa-user-circle"></i>
+            <a href="http://github.com/chaitanyamotumarri">Krishna Chaitanya</a>
+        </h4>
+    </footer>
+    
+    <script src="../bootstrap/js/jquery-3.4.1.js"></script>
+    <script src="../bootstrap/js/popper.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/mdb.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

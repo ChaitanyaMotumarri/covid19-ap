@@ -1,0 +1,24 @@
+.table tbody tr td{
+    font-weight: bold;
+}
+#btn{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#count{
+   
+    font-weight: bold;
+}
+#love{
+    color:pink;
+}
+footer{
+    margin-top: 5px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 10px;
+}
+footer a{
+    color: white;
+}
